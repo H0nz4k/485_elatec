@@ -1,0 +1,19 @@
+# Local/generated working files
+_extracted_docs/
+*.net
+erc.rpt
+
+# Large vendor/user reference files kept locally
+*.zip
+*.pdf
+
+# KiCad backups and generated outputs
+*.bak
+*.bck
+*-backups/
+fp-info-cache
+
+# OS/editor noise
+Thumbs.db
+.DS_Store
+*.tmp
