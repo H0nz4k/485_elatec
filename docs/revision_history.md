@@ -78,3 +78,22 @@ Current Rev E status:
 - DRC clean: 0 violations, 0 unconnected pads, 0 footprint errors.
 - Gerber, drill, BOM, CPL, and preview exports exist.
 - Still not order-approved because buck layout, lock current paths, X2/standoff mechanics, and JLCPCB/LCSC BOM sourcing need manual review.
+
+## Rev F Power Layout Audit
+
+Rev F was created from the Rev E routed checkpoint as a power-layout audit branch.
+
+- PCB file:
+  - `kicad/twn4_access_system/twn4_access_system_rev_f_compact_power_cleanup.kicad_pcb`
+- Schematic copy:
+  - `kicad/twn4_access_system/twn4_access_system_rev_f.kicad_sch`
+- Manufacturing draft outputs:
+  - `manufacturing/rev_f`
+- Report:
+  - `reports/018_rev_f_power_layout_audit.md`
+
+Current Rev F status:
+
+- DRC clean: 0 violations, 0 unconnected pads, 0 footprint errors.
+- Widening the existing autorouted power traces was tested and rejected because it produced clearance and shorting violations.
+- Rev F is not order-approved. The next real PCB work is manual rerouting of buck and lock/relay power paths.
