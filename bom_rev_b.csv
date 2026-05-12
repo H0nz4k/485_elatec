@@ -1,0 +1,59 @@
+Ref,Qty,Value / Part,Description,Notes
+J1,1,2-pin 5.08mm terminal,VIN 12-48V input,Choose current rating by installation
+J2,1,4-pin 5.08mm terminal,RS-485 A/B/GND/SHIELD reader-side bus,
+J3,1,3-pin 5.08mm terminal,Relay COM/NO/NC output,
+J4,1,2-pin 5.08mm terminal,Direct lock output,
+J5,1,4-pin 3.5mm terminal,Door/REX/Tamper inputs,
+J6,1,2x12 2.00mm female socket,TWN4 X2 socket,Samtec PTF-124-01-S-D or compatible candidate
+J10,1,2x20 2.54mm header,Raspberry Pi 40-pin header,
+J11,1,4-pin 5.08mm terminal,RPi RS-485/VIN bus output,
+J12,1,2-pin 5.08mm terminal,RPi VIN_BUS input,
+U1,1,LTC4367,100V UV/OV/reverse supply protection controller,Front-end protection candidate; divider values final TBD
+Q1A/Q1B,2,100V N-MOSFET,Back-to-back protection FETs for U1,Select by bus current and SOA
+D1,1,SMBJ58A,VIN TVS for 48V-class input,Final value depends on front-end limits
+F1,1,1.1-1.5A 60V+ fuse/polyfuse,VIN logic protection,Use higher rating if lock current passes this path
+U2,1,LM5164,100V input 1A synchronous buck,5V rail
+CIN1/CIN2,2,2.2uF 100V X7R,LM5164 input capacitors,Place close to U2
+CIN_BULK,1,47uF 100V,VIN bulk capacitor,
+L1,1,68uH Isat >1.8A,Buck inductor,Low DCR
+COUT1/COUT2,2,22uF 25V X7R,5V output capacitors,
+RFB_TOP,1,453k 1%,LM5164 feedback top,From TI 5V example
+RFB_BOT,1,49.9k 1%,LM5164 feedback bottom,From TI 5V example
+RRON,1,100k 1%,LM5164 RON resistor,From TI 5V example
+RA,1,453k 1%,LM5164 ripple injection network,From TI 5V example
+CA,1,3.3nF,LM5164 ripple injection network,From TI 5V example
+CB,1,56pF,LM5164 ripple injection network,From TI 5V example
+CBST,1,2.2nF 50V,LM5164 bootstrap capacitor,From TI 5V example
+U3,1,TLV75533PDBVR,3.3V LDO,Or equivalent
+C3_IN/C3_OUT,2,1uF 10V,LDO capacitors,
+U4,1,THVD1450,Reader-side RS-485 transceiver,3.3V supply
+U10,1,THVD1450,RPi-side RS-485 transceiver,3.3V supply
+D2/D10,2,CDSOT23-SM712,RS-485 TVS diode array,One on each board
+R_TX/R_RX/R10/R11,4,33R,UART series resistors,
+R_DIR/R12,2,100R,RS-485 direction gate/logic series resistors,
+R_DIR_PD/R13,2,100k,RS-485 receive-default pulldowns,
+R_A_SER/R_B_SER/R14/R15,4,10R,RS-485 bus series resistors,
+R_TERM/R16,2,120R,RS-485 termination,Enable by jumper only at bus ends
+R_BIAS_UP/R17,2,680R,RS-485 pull-up bias,Usually populate on master only
+R_BIAS_DN/R18,2,680R,RS-485 pull-down bias,Usually populate on master only
+K1,1,Omron G5V-2 DC5,5V DPDT signal relay candidate,Use one COM/NO/NC contact
+Q2,1,2N7002,Relay low-side driver,
+D3,1,1N4148 or SS14,Relay flyback diode,
+R_G2,1,100R,Relay gate resistor,
+R_PD2,1,100k,Relay gate pulldown,
+Q3,1,DMT10H015LSS or similar,100V logic-level N-MOSFET for lock output,Must specify Rds(on) at Vgs=4.5V
+U6,1,SN74AHCT1G125,5V gate buffer for lock MOSFET,TTL-compatible input from 3.3V GPIO
+R_G3,1,47R,Lock MOSFET gate resistor,
+R_PD3,1,100k,Lock MOSFET gate pulldown,
+F_LOCK,1,TBD,Lock output fuse,Choose by lock current
+D4,1,TBD,Lock flyback diode,Choose by lock voltage/current
+D5,1,TBD,Lock TVS,Choose by 12/24/48V lock variant
+U5,1,MCP23008,8-bit I2C GPIO expander,Door/REX/Tamper inputs
+R_SCL_PULL/R_SDA_PULL,2,4.7k,I2C pull-ups to 3.3V,
+R_SCL_SER/R_SDA_SER,2,33R,I2C series resistors,
+R_RESET,1,10k,MCP23008 reset pull-up,
+R_IN_SERx,4,1k,Input series resistors,Door/REX/Tamper/AUX
+R_IN_PULLx,4,10k,Input pull-ups to 3.3V,
+C_INx,4,100nF,Input debounce/filter capacitors,
+LED_PWR/LED_TX/LED_RELAY/LED_LOCK,4,LED,Diagnostic LEDs,
+R_LEDx,4,2.2k,LED resistors,

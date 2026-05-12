@@ -1,0 +1,55 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C1","4.7uF 100V X7R input bulk","C_1210_3225Metric",58.000000,-21.000000,0.000000,top
+"C2","100nF 100V input HF","C_0805_2012Metric",64.000000,-21.000000,0.000000,top
+"C3","100nF BST","C_0603_1608Metric",62.000000,-28.000000,0.000000,top
+"C4","22uF 100V buck input","C_1210_3225Metric",58.000000,-31.000000,0.000000,top
+"C5","47uF 10V buck output","C_1210_3225Metric",88.000000,-35.000000,0.000000,top
+"C6","100nF 5V HF","C_0603_1608Metric",94.000000,-37.000000,0.000000,top
+"C7","1uF 3V3 LDO in","C_0603_1608Metric",86.000000,-48.000000,0.000000,top
+"C8","1uF 3V3 LDO out","C_0603_1608Metric",94.000000,-48.000000,0.000000,top
+"C36","10nF DOOR_IN filter","C_0603_1608Metric",36.000000,-43.000000,0.000000,top
+"C37","10nF REX_IN filter","C_0603_1608Metric",36.000000,-47.000000,0.000000,top
+"C38","10nF TAMPER_IN filter","C_0603_1608Metric",36.000000,-51.000000,0.000000,top
+"C39","10nF AUX_IN filter","C_0603_1608Metric",36.000000,-55.000000,0.000000,top
+"D1","SM712 RS-485 TVS","SOT-23",88.000000,-20.000000,0.000000,top
+"D2","Lock flyback diode/TVS placeholder","D_SMA",83.000000,-62.000000,0.000000,top
+"D4","SMBJ58A input TVS","D_SMB",55.000000,-14.000000,0.000000,top
+"D5","Relay flyback diode","D_SOD-123",93.000000,-62.000000,0.000000,top
+"F1","1.5A 60V+ fuse/PTC","Fuse_1206_3216Metric",55.000000,-8.000000,0.000000,top
+"J1","VIN 12-48V IN","TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",96.000000,-10.000000,90.000000,top
+"J2","TWN4 MultiTech 3 BLE X2 socket","PinSocket_2x12_P2.00mm_Vertical",8.000000,-25.500000,0.000000,top
+"J3","RS-485 OUT A/B/+VIN/GND","TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal",94.000000,-30.000000,90.000000,top
+"J4","Relay contact COM/NC/NO","TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal",9.000000,-64.000000,0.000000,top
+"J5","LOCK OUT +VIN/SW-","TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",25.000000,-64.000000,0.000000,top
+"J6","DOOR/REX/TAMPER/AUX inputs","TerminalBlock_Phoenix_PT-1,5-6-3.5-H_1x06_P3.50mm_Horizontal",50.000000,-64.000000,0.000000,top
+"K1","Dry relay contact NO/NC/COM","Relay_SPDT_Omron_G5V-1",72.000000,-54.000000,0.000000,top
+"L1","47uH shielded inductor","L_Bourns-SRN1060",82.000000,-28.000000,0.000000,top
+"Q1","Reverse/surge FET A 100V","SOIC-8_3.9x4.9mm_P1.27mm",80.000000,-9.000000,0.000000,top
+"Q2","Reverse/surge FET B 100V","SOIC-8_3.9x4.9mm_P1.27mm",88.000000,-5.000000,0.000000,top
+"Q3","Relay low-side driver","SOT-23",84.000000,-54.000000,0.000000,top
+"Q4","Lock low-side MOSFET 100V","SOIC-8_3.9x4.9mm_P1.27mm",90.000000,-54.000000,0.000000,top
+"R1","1M UV/OV top placeholder","R_0603_1608Metric",63.000000,-15.000000,0.000000,top
+"R2","100k UV/OV mid placeholder","R_0603_1608Metric",68.000000,-15.000000,0.000000,top
+"R3","27k UV/OV bottom placeholder","R_0603_1608Metric",73.000000,-15.000000,0.000000,top
+"R4","200k LM5164 RON","R_0603_1608Metric",17.000000,-14.000000,0.000000,top
+"R5","604k 5V FB top","R_0603_1608Metric",21.000000,-14.000000,0.000000,top
+"R6","100k 5V FB bottom","R_0603_1608Metric",25.000000,-14.000000,0.000000,top
+"R7","120R RS485 TERM DNP/JMP","R_0603_1608Metric",68.000000,-35.000000,0.000000,top
+"R8","680R RS485 bias pullup DNP/JMP","R_0603_1608Metric",72.000000,-35.000000,0.000000,top
+"R9","680R RS485 bias pulldown DNP/JMP","R_0603_1608Metric",76.000000,-35.000000,0.000000,top
+"R10","22R RS485 A series option","R_0603_1608Metric",80.000000,-35.000000,0.000000,top
+"R11","22R RS485 B series option","R_0603_1608Metric",84.000000,-35.000000,0.000000,top
+"R12","100R relay gate","R_0603_1608Metric",43.000000,-43.000000,0.000000,top
+"R13","100k relay gate pulldown","R_0603_1608Metric",43.000000,-47.000000,0.000000,top
+"R14","100R lock gate","R_0603_1608Metric",18.000000,-38.000000,0.000000,top
+"R15","100k lock gate pulldown","R_0603_1608Metric",24.000000,-38.000000,0.000000,top
+"R16","10k DOOR_IN pullup","R_0603_1608Metric",43.000000,-51.000000,0.000000,top
+"R17","10k REX_IN pullup","R_0603_1608Metric",43.000000,-55.000000,0.000000,top
+"R18","10k TAMPER_IN pullup","R_0603_1608Metric",43.000000,-59.000000,0.000000,top
+"R19","10k AUX_IN pullup","R_0603_1608Metric",43.000000,-63.000000,0.000000,top
+"U1","LTC4367 surge/OV/UV protector","MSOP-8_3x3mm_P0.65mm",66.000000,-9.000000,0.000000,top
+"U2","LM5164 12-48V to 5V buck","Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm",72.000000,-25.000000,0.000000,top
+"U3","TLV75533 3.3V local rail","SOT-23-5",90.000000,-47.000000,0.000000,top
+"U4","THVD1450 reader RS-485 transceiver","SOIC-8_3.9x4.9mm_P1.27mm",78.000000,-42.000000,0.000000,top
+"U5","5V gate buffer for lock FET","SOT-23-5",22.000000,-10.000000,0.000000,top
+"U6","MCP23008 door input expander","SOIC-18W_7.5x11.6mm_P1.27mm",54.000000,-45.000000,0.000000,top

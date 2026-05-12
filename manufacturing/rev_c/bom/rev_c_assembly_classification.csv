@@ -1,0 +1,83 @@
+Refs,Value,Footprint,Assembly_Class,Notes
+C1,4.7uF 100V X7R input bulk,Capacitor_SMD:C_1210_3225Metric,JLCPCB candidate,Verify exact LCSC part before order
+C2,100nF 100V input HF,Capacitor_SMD:C_0805_2012Metric,JLCPCB candidate,Verify exact LCSC part before order
+C3,100nF BST,Capacitor_SMD:C_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+C4,22uF 100V buck input,Capacitor_SMD:C_1210_3225Metric,JLCPCB candidate,Verify exact LCSC part before order
+C5,47uF 10V buck output,Capacitor_SMD:C_1210_3225Metric,JLCPCB candidate,Verify exact LCSC part before order
+C6,100nF 5V HF,Capacitor_SMD:C_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+C7,1uF 3V3 LDO in,Capacitor_SMD:C_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+C8,1uF 3V3 LDO out,Capacitor_SMD:C_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+C36,10nF DOOR_IN filter,Capacitor_SMD:C_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+C37,10nF REX_IN filter,Capacitor_SMD:C_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+C38,10nF TAMPER_IN filter,Capacitor_SMD:C_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+C39,10nF AUX_IN filter,Capacitor_SMD:C_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+D1,SM712 RS-485 TVS,Package_TO_SOT_SMD:SOT-23,JLCPCB extended / verify,Confirm exact MPN/package and LCSC availability
+D2,Lock flyback diode/TVS placeholder,Diode_SMD:D_SMA,JLCPCB candidate,Verify exact LCSC part before order
+D3,RPi side SM712 TVS,Package_TO_SOT_SMD:SOT-23,JLCPCB extended / verify,Confirm exact MPN/package and LCSC availability
+D4,SMBJ58A input TVS,Diode_SMD:D_SMB,JLCPCB candidate,Verify exact LCSC part before order
+D5,Relay flyback diode,Diode_SMD:D_SOD-123,JLCPCB candidate,Verify exact LCSC part before order
+F1,1.5A 60V+ fuse/PTC,Fuse:Fuse_1206_3216Metric,JLCPCB candidate,Verify exact LCSC part before order
+J1,VIN 12-48V IN,TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal,Likely manual / verify,Connector/relay/jumper mechanical and availability must be confirmed
+J2,TWN4 MultiTech 3 BLE X2 socket,Connector_PinSocket_2.00mm:PinSocket_2x12_P2.00mm_Vertical,Likely manual / verify,Connector/relay/jumper mechanical and availability must be confirmed
+J3,RS-485 OUT A/B/+VIN/GND,TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-04_1x04_P5.08mm_Horizontal,Likely manual / verify,Connector/relay/jumper mechanical and availability must be confirmed
+J4,Relay contact COM/NC/NO,TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-03_1x03_P5.08mm_Horizontal,Likely manual / verify,Connector/relay/jumper mechanical and availability must be confirmed
+J5,LOCK OUT +VIN/SW-,TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal,Likely manual / verify,Connector/relay/jumper mechanical and availability must be confirmed
+J6,DOOR/REX/TAMPER/AUX inputs,TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-06_1x06_P5.08mm_Horizontal,Likely manual / verify,Connector/relay/jumper mechanical and availability must be confirmed
+J7,RPi 40-pin header subset,Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical,Likely manual / verify,Connector/relay/jumper mechanical and availability must be confirmed
+J8,RPi RS-485 BUS A/B/+VIN/GND,TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-04_1x04_P5.08mm_Horizontal,Likely manual / verify,Connector/relay/jumper mechanical and availability must be confirmed
+JP1,LOCK SERVICE LINK,Jumper:SolderJumper-2_P1.3mm_Open,Likely manual / verify,Connector/relay/jumper mechanical and availability must be confirmed
+K1,Dry relay contact NO/NC/COM,Relay_THT:Relay_SPDT_Omron_G5V-1,Likely manual / verify,Connector/relay/jumper mechanical and availability must be confirmed
+L1,47uH shielded inductor,Inductor_SMD:L_Bourns-SRN1060,JLCPCB candidate,Verify exact LCSC part before order
+Q1,Reverse/surge FET A 100V,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,JLCPCB candidate,Verify exact LCSC part before order
+Q2,Reverse/surge FET B 100V,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,JLCPCB candidate,Verify exact LCSC part before order
+Q3,Relay low-side driver,Package_TO_SOT_SMD:SOT-23,JLCPCB candidate,Verify exact LCSC part before order
+Q4,Lock low-side MOSFET 100V,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,JLCPCB candidate,Verify exact LCSC part before order
+R1,1M UV/OV top placeholder,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R2,100k UV/OV mid placeholder,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R3,27k UV/OV bottom placeholder,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R4,200k LM5164 RON,Resistor_SMD:R_0603_1608Metric,JLCPCB extended / verify,Confirm exact MPN/package and LCSC availability
+R5,604k 5V FB top,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R6,100k 5V FB bottom,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R7,120R RS485 TERM DNP/JMP,Resistor_SMD:R_0603_1608Metric,DNP option,Fit only when needed for bus/field configuration
+R8,680R RS485 bias pullup DNP/JMP,Resistor_SMD:R_0603_1608Metric,DNP option,Fit only when needed for bus/field configuration
+R9,680R RS485 bias pulldown DNP/JMP,Resistor_SMD:R_0603_1608Metric,DNP option,Fit only when needed for bus/field configuration
+R10,22R RS485 A series option,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R11,22R RS485 B series option,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R12,100R relay gate,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R13,100k relay gate pulldown,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R14,100R lock gate,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R15,100k lock gate pulldown,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R16,10k DOOR_IN pullup,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R17,10k REX_IN pullup,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R18,10k TAMPER_IN pullup,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R19,10k AUX_IN pullup,Resistor_SMD:R_0603_1608Metric,JLCPCB candidate,Verify exact LCSC part before order
+R20,120R RPi RS485 TERM DNP/JMP,Resistor_SMD:R_0603_1608Metric,DNP option,Fit only when needed for bus/field configuration
+R21,680R RPi bias pullup DNP/JMP,Resistor_SMD:R_0603_1608Metric,DNP option,Fit only when needed for bus/field configuration
+R22,680R RPi bias pulldown DNP/JMP,Resistor_SMD:R_0603_1608Metric,DNP option,Fit only when needed for bus/field configuration
+TP1,VIN_IN,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP2,VIN_PROT,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP3,+5V,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP4,+3V3,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP5,GND,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP6,COM1_TX,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP7,COM1_RX,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP8,GPIO4_RS485_DIR,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP9,RS485_A,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP10,RS485_B,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP11,LOCK_GATE_5V,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP12,LOCK_SW_LOW,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP13,RELAY_COIL_LOW,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP14,DOOR_IN,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP15,REX_IN,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP16,TAMPER_IN,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP17,AUX_IN,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP18,RPI_RS485_A,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP19,RPI_RS485_B,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+TP20,RPI_RS485_DIR,TestPoint:TestPoint_Pad_D1.5mm,Do not populate,PCB testpoint only
+U1,LTC4367 surge/OV/UV protector,Package_SO:MSOP-8_3x3mm_P0.65mm,JLCPCB extended / verify,Confirm exact MPN/package and LCSC availability
+U2,LM5164 12-48V to 5V buck,Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm,JLCPCB extended / verify,Confirm exact MPN/package and LCSC availability
+U3,TLV75533 3.3V local rail,Package_TO_SOT_SMD:SOT-23-5,JLCPCB extended / verify,Confirm exact MPN/package and LCSC availability
+U4,THVD1450 reader RS-485 transceiver,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,JLCPCB extended / verify,Confirm exact MPN/package and LCSC availability
+U5,5V gate buffer for lock FET,Package_TO_SOT_SMD:SOT-23-5,JLCPCB candidate,Verify exact LCSC part before order
+U6,MCP23008 door input expander,Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm,JLCPCB extended / verify,Confirm exact MPN/package and LCSC availability
+U7,RPi RS-485 transceiver,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,JLCPCB candidate,Verify exact LCSC part before order

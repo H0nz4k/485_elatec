@@ -1,7 +1,8 @@
 # Local/generated working files
 _extracted_docs/
 *.net
-erc.rpt
+*.rpt
+tmp.net
 
 # Large vendor/user reference files kept locally
 *.zip
@@ -17,3 +18,6 @@ fp-info-cache
 Thumbs.db
 .DS_Store
 *.tmp
+
+# KiCad local UI/session state
+*.kicad_prl
